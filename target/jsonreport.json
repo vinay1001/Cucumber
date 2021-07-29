@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "common step for the scenario",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22502024500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "we are working with this website \"https://demos.telerik.com/kendo-ui/dragdrop/events\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://demos.telerik.com/kendo-ui/dragdrop/events",
+                  "offset": 34
+                }
+              ],
+              "location": "com.api.cucumber.mousekey.mkStepDfn.we_are_working_with_this_website_something(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-28T10:41:54.139Z",
+        "line": 6,
+        "name": "Working with context click",
+        "description": "",
+        "id": "to-understand-mouse-and-keyboard-actions;working-with-context-click",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 155472100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "i create the composite action for context click",
+            "match": {
+              "location": "com.api.cucumber.mousekey.mkStepDfn.i_create_the_composite_action_for_context_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I build the actions",
+            "match": {
+              "location": "com.api.cucumber.mousekey.mkStepDfn.i_build_the_actions()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10375613000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I perform the action",
+            "match": {
+              "location": "com.api.cucumber.mousekey.mkStepDfn.i_perform_the_action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1139965100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I take the screenshot",
+            "match": {
+              "location": "com.api.cucumber.mousekey.mkStepDfn.i_take_the_screenshot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I call the quit method to close the webdriver",
+            "match": {
+              "location": "com.api.cucumber.mousekey.mkStepDfn.i_call_the_quit_method_to_close_the_webdriver()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "To understand mouse and keyboard actions",
+    "description": "",
+    "id": "to-understand-mouse-and-keyboard-actions",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/com/api/cucumber/mousekey/mousekey.feature",
+    "tags": []
+  }
+]
